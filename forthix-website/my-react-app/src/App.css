@@ -1,38 +1,134 @@
-.App {
+.hero-head{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.hero{
+  background-color: #60B4E5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title {
+  color:white;
+  margin:10%;
+  margin-top:200px;
+  font-size: 80px;
+}
+
+.subtitle {
+  color:white;
+  margin:10%;
+  font-size: 30px;
+}
+
+.try-forthix-button {
+  background-color: #8FF5A3;
+	color: #404040;
+  font-weight: bold;
+	font-size: 15px;
+  cursor: pointer;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 7px;
+  text-align: center;
+  margin:10%;
+  margin-top:9.5%;
+}
+
+.text-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.video-container {
+  position: relative;
+  margin-top: 275px;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-body {
+  display: flex;
+  flex-direction: row;
+}
+
+.blue-background{
+  background-color: #60B4E5;
+}
+
+.green-background{
+  background-color: #8FF5A3;
+}
+
+.purple-background{
+  background-color: #7A4EFF;
+}
+
+.title2 {
+  color:#4A4A4A;
+  margin:3%;
+  font-size: 55px;
+  font-weight:bold;
+}
+
+.subtitle2 {
+  color:#4A4A4A;
+  font-size: 20px;
+  margin:3%;
+}
+
+.title3 {
+  color:#4A4A4A;
+  margin:14%;
+  font-size: 25px;
+  font-weight:bold;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.subtitle3 {
+  color:#4A4A4A;
+  font-size: 15px;
+  margin:14%;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.subtitle4 {
+  color:#4A4A4A;
+  font-size: 15px;
+  margin:5%;
+  text-align: left;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.white-text{
+  color:white;
 }
 
-.App-link {
-  color: #61dafb;
+.hero-foot {
+  background-color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.foot-text{
+  text-align: center;
+  padding: 20px;
+  color: #4A4A4A;
+  font-size: 15px;
+  font-weight: bold;
 }

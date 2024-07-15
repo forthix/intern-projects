@@ -1,0 +1,39 @@
+.nav{
+	position:fixed;
+	width: 100%;
+	height:120px;
+  background-color: white;
+}
+
+.menu{
+	display: flex;
+  align-items: center;
+  margin-top: 30px;
+  justify-content: space-between;
+  margin-right:5%;
+  margin-left:5%;
+}
+
+.menuoptions{
+	color: #404040;
+	font-size: 23px;
+  cursor: pointer;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+.get-forthix-button {
+  background-color: #8FF5A3;
+	color: #404040;
+  font-weight: bold;
+	font-size: 15px;
+  cursor: pointer;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 7px;
+}

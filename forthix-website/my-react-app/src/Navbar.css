@@ -8,10 +8,10 @@
 .menu{
 	display: flex;
   align-items: center;
-  margin-top: 30px;
   justify-content: space-between;
   margin-right:5%;
   margin-left:5%;
+  margin-top: 30px;
 }
 
 .menuoptions{
@@ -29,6 +29,7 @@
   background-color: #8FF5A3;
 	color: #404040;
   font-weight: bold;
+  text-align: center;
 	font-size: 15px;
   cursor: pointer;
   padding-top: 15px;
@@ -36,4 +37,29 @@
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 7px;
+}
+
+@media (max-width: 700px) {
+ 
+  .nav{
+    height:100px;
+    background-color: white;
+  }
+
+  .logo {
+    margin-top:7px;
+    width: 100px;
+    height: auto;
+  }
+
+  .menuoptions{
+    font-size: 18px;
+  }
+
+  .get-forthix-button {
+    font-size: 10px;
+    padding:8px;
+    border-radius: 7px;
+  }
+
 }

@@ -63,3 +63,29 @@
   }
 
 }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+  background-color: #404040;
+}
+
+.dropdown-content a {
+  color: white;
+  background-color: #404040;
+  font-size: 20px;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

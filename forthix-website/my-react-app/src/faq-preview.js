@@ -1,18 +1,17 @@
 import React, { useState } from 'react';
 
-function FaqPreview() {
+function FaqPreview({ question, answer }) {
   const [isOpen1, setIsOpen1] = useState(false);
-  const [isOpen2, setIsOpen2] = useState(false);
-  const [isOpen3, setIsOpen3] = useState(false);
+  
 
   return (
     <div className="App">
       <button onClick={() => setIsOpen1(!isOpen1)}>
-      Question... {isOpen1 ? 'Hide' : 'Show'} Answer ↓
+      {isOpen1 ? '↑' : '↓'} {question}
       </button>
       {isOpen1 && (
         <div>
-          <p>Answer</p>
+          <p>{answer}</p>
         </div>
       )}
     </div>
